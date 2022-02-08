@@ -67,6 +67,8 @@ span{
     border-radius: 50%;
     background-color: #b2c91e !important;
 }
+/* <------------------service--------------------> */
+
 .service_font{
     font-size: 14px;
 }
@@ -125,6 +127,8 @@ span{
     right: 223px;
     z-index: -1;
 }
+/* <------------------career--------------------> */
+
 #career{
     padding: 10% 0;
 }
@@ -135,7 +139,7 @@ span{
     color: #002765;
     font-weight: bold;
 }
-
+/* <---------------media query--------------> */
 @media (max-width: 1300px) { 
 
     .banner{
@@ -184,35 +188,8 @@ span{
     .fw-small {
         font-size: 10px;
     }
-
  }
  @media (max-width: 1000px) { 
-    .hero-image{
-        top: -415px;
-    }
-    .banner{
-        margin-top: 8%;
-    }
-    .play_outer{
-        width: 7.5%;
-    }
-    .bi-play-circle-fill{
-        top: -8px;
-    }
-    .play_btn {
-        top: -27px;
-    }
-    .hero-images{
-        width: 150%;
-        height: 500px;
-    }
-    .img_path2{
-        top: 135px;
-    }
-
- }
-
- @media (max-width: 900px) { 
     .hero-image {
         top: -390px;
     }
