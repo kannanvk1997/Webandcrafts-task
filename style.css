@@ -3,6 +3,7 @@ html,body{
     overflow-y: auto;
     font-family: 'Roboto Slab', serif;
   }
+  
 a{
     text-decoration: none;
   }
@@ -286,6 +287,10 @@ span{
     .carousel-indicators{
         width: 10%;
     }
+    .ul_div{
+        flex-direction: column;
+        text-align: center;
+    }
  }
  @media (max-width: 700px){
     .play_outer{
@@ -344,4 +349,9 @@ span{
     .hero-image{
         top: -170px;
     }
+    #career {
+        padding: 65% 0 0 60%;
+    }
+    
+
  }
